@@ -1,0 +1,45 @@
+História 1
+===========
+Como cliente, quero avaliar o pedido depois da entrega, para ajudar outros clientes a escolherem melhor.
+-----------------------------------------------------------------------------
+
+Dado que o pedido foi entregue, quando o cliente abre o app, então aparece a opção de avaliar o pedido.
+
+Dado que o cliente avalia com nota e comentário, quando confirma o envio, então a avaliação aparece no perfil do restaurante.
+--------------- --------------- --------------- --------------- ------------- --------------- --------------- -------------- --------------
+
+(1) - O cliente faz somente uma avaliação por produto. - (ADEQUAÇÃO FUNCIONAL)
+(2) - Assim que o pedido chega para o cliente, o cliente faz a avaliação com 1 clique - (USABILIDADE)
+(3) - Ao finalizar a avaliação, ela deve aparecer em até 2 segundos, no perfil do produto - (EFICIÊNCIA DE DESEMPENHO) 
+
+#################################################################################
+
+História 2
+========================
+Como cliente, quero salvar um cartão de pagamento, para não digitar os dados a cada compra.
+-----------------------------------------------------------------------------------------------
+
+Dado que o cliente cadastra um cartão válido, quando confirma o cadastro, então o cartão fica disponível para escolha no checkout.
+
+Dado que o cliente tem um cartão salvo, quando faz um novo pedido, então pode selecionar esse cartão sem redigitar os dados.
+--------------- ---------------- ------------------ --------------- -------------- -------------- -------------- ------------ ---------------
+
+(1) - Os dados do cartão do cliente ficam criptografados - (SEGURANÇA)
+(2) - O cliente pode cadastrar até 3 cartões - (ADEQUAÇÃO FUNCIONAL)
+(3) - o cliente faz o pagameto com o cartão com 3 cliques - (USABILIDADE) 
+
+#################################################################################
+
+História 3
+=======================
+Como dono de restaurante, quero ver um resumo diário de vendas, para acompanhar o desempenho do dia.
+-----------------------------------------------------------------------------------
+
+Dado que o dia comercial termina, quando o restaurante abre o painel de vendas, então vê o total de pedidos e o faturamento do dia.
+
+Dado que o restaurante seleciona um período diferente, quando aplica o filtro, então o resumo é recalculado para aquele período.
+---------- ---------------- ----------- ------------- ------------ --------------- -------------- --------------- ---------------- --------------
+
+(1) - Para acessar o resumo de vendas faço 3 cliques - (USABILIDADE)
+(2) - Tenha à opção de Editar e baixar um PDF - (ADEQUAÇÃO FUNCIONAL)
+(3) - A atualização é feita a cada 5 segundos(EFICIÊNCIA DE DESEMPENHO)
