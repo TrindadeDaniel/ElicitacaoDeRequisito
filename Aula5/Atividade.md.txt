@@ -1,0 +1,40 @@
+ A secretaria registra a matrícula
+de aluno novo
+
+O professor registra a frequência em cada aula
+
+O aluno, quando falta, agenda uma reposição em
+outro horário disponível.
+
+------------------------------------------------------------------------
+
+PROCESSO: A secretaria registra a matrícula
+do aluno novo.
+
+Técnica: Observar
+
+Motivo: A secretaria Sabe o que precisa e aonde ir para realizar o registro da matrícula.
+Dessa forma posso levantar os requisitos de acordo como o necessário para fazer esse registro.
+
+STAKEHOLDER: SECRETÁRIA
+------------------------------------------------------------------------
+PROCESSO:O professor registra a frequência em cada aula
+
+Técnica:Entrevista
+
+Motivo: Cada professor tem seu método e forma de realizar esse registro.
+Porém alguns podem acabar esquecendo, Em uma entrevistra posso verificar com ele sobre assuntos especificos para descobrir o que ele prioriza.
+E levantar requitos e limitações e obrigações para ser realizado o registro.
+
+STAKEHOLDER: PROFESSOR
+------------------------------------------------------------------------
+PROCESSO:O aluno, quando falta, agenda uma reposição em
+outro horário disponível.
+
+Técnica:questionário,análise documental e prototipação
+
+Motivo: Dessa forma consigo juntar algumas informações dos alunos para verificar se é algo positivo para eles.
+Em seguida, junto todos esses dados e verifico o formato que é realizado essas reposições de aulas, assim monto os requisitos.
+Enfim, monto uma prototipagem de como seria a tela e como funcionária o sistema e vejo melhorias.
+
+STAKEHOLDER: ALUNOS
