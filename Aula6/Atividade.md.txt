@@ -1,0 +1,30 @@
+Problema. Eu gasto mais dinheiro do que devia e quero evitar isso.
+
+-------------------------------------------------------------------------
+ 
+Pergunta de empatia. Por que eu gasto mais do que planejo, mesmo sabendo quanto eu ganho por mês?
+ 
+Definição. Eu gasto demais porque, na hora da compra, eu não sei quanto eu já gastei naquele mês. Eu só percebo que gastei muito quando olho a fatura ou o extrato no fim do mês, e aí já é tarde.
+ 
+
+ ------------------------------------------------------------------------
+Ideias.
+1. Uma notificação toda vez que eu fizer uma compra, mostrando quanto eu já gastei no mês até aquele momento.
+2. Um limite de gasto que eu defino por categoria (comida, lazer, transporte), e o app me avisa quando eu estou perto de estourar.
+3. Um resumo por mensagem todo dia, mostrando quanto ainda sobra do meu orçamento do mês.
+ 
+ -----------------------------------------------------------------------
+
+Ideia escolhida. Uma notificação toda vez que eu fizer uma compra, mostrando quanto eu já gastei no mês até aquele momento.
+ 
+História de usuário 1. Como usuário do app, quero receber uma notificação toda vez que eu fizer uma compra, para saber na hora quanto eu já gastei no mês.
+ 
+História de usuário 2. Como usuário do app, quero ver o total gasto no mês dentro da própria notificação, para não precisar abrir o app pra checar.
+ 
+História de usuário 3. Como usuário do app, quero que a notificação mostre quanto ainda posso gastar até o fim do mês, para decidir se vale a pena fazer aquela compra.
+ 
+Critério de aceitação 1. Dado que eu fiz uma compra com o cartão cadastrado, quando o sistema recebe essa compra, então uma notificação é enviada mostrando o valor da compra e o total gasto no mês.
+ 
+Critério de aceitação 2. Dado que uma notificação de compra é enviada, quando eu abro essa notificação, então ela mostra quanto ainda falta pra eu chegar no limite mensal que eu defini.
+ 
+Critério de aceitação 3. Dado que eu ainda não cadastrei um limite mensal, quando eu recebo a primeira notificação de compra, então o sistema pergunta se eu quero cadastrar esse limite.

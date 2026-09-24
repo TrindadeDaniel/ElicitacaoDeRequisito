@@ -1,0 +1,48 @@
+Processo 1 - Vendedor registra pedidos
+=======================================
+
+Requisito 1. O sistema deve permitir que o vendedor registre um pedido informando os produtos e a quantidade.
+Fonte 1. Entrevista com o vendedor. Fonte humana, nível operacional, classe de usuário vendedor.
+Fonte 2. Como o vendedor anota os pedidos hoje (no papel ou na planilha). Fonte não humana, categoria sistema legado.
+
+Requisito 2. O sistema não pode deixar registrar um produto que não tem em estoque.
+Fonte 1. Entrevista com o time de estoque. Fonte humana, nível operacional, classe de usuário estoque.
+Fonte 2. Política de vendas da empresa. Fonte não humana, categoria documentação.
+
+Requisito 3. O sistema deve gerar um número pra cada pedido registrado.
+Fonte 1. Conversa com o gerente comercial. Fonte humana, nível tático.
+Fonte 2. Sistema de vendas que a empresa usa hoje. Fonte não humana, categoria sistema legado.
+
+################################################################
+
+Processo 2 - Administrador cadastra e remove produtos
+=======================================================
+
+Requisito 1. O sistema deve permitir o administrador cadastrar um produto novo com nome, preço e descrição.
+Fonte 1. Entrevista com o administrador. Fonte humana, nível operacional, classe de usuário administrador.
+Fonte 2. Catálogo de produtos da empresa. Fonte não humana, categoria documentação.
+
+Requisito 2. O sistema deve permitir o administrador remover um produto que parou de ser vendido.
+Fonte 1. Entrevista com o administrador. Fonte humana, nível operacional, classe de usuário administrador.
+Fonte 2. Como isso é feito hoje, sem sistema. Fonte não humana, categoria sistema legado.
+
+Requisito 3. Só o administrador pode cadastrar ou remover produto, o vendedor não pode.
+Fonte 1. Conversa com o diretor da empresa. Fonte humana, nível estratégico.
+Fonte 2. Norma de segurança da informação da empresa. Fonte não humana, categoria norma.
+
+################################################################
+
+Processo 3 - Estoque controla a quantidade
+=============================================
+
+Requisito 1. Quando uma venda é feita, o sistema deve tirar a quantidade vendida do estoque sozinho.
+Fonte 1. Entrevista com o time de estoque. Fonte humana, nível operacional, classe de usuário estoque.
+Fonte 2. Planilha de controle de estoque usada hoje. Fonte não humana, categoria sistema legado.
+
+Requisito 2. O sistema deve deixar o time de estoque registrar quando chegam produtos novos.
+Fonte 1. Entrevista com o time de estoque. Fonte humana, nível operacional, classe de usuário estoque.
+Fonte 2. Processo de recebimento de mercadoria da empresa. Fonte não humana, categoria documentação.
+
+Requisito 3. O sistema deve avisar quando um produto está quase acabando no estoque.
+Fonte 1. Conversa com o gerente de estoque. Fonte humana, nível tático.
+Fonte 2. Sistema de um concorrente que já tem esse aviso. Fonte não humana, categoria concorrência.
